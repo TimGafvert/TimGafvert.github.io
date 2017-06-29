@@ -1,0 +1,21 @@
+.mainPic{
+  position: absolute;
+  top: 233px;
+  left: 367px;
+}
+
+body {
+  text-align: center;
+  font-family: Arial;
+  text-shadow: 1px 1px #ffffff;
+  color: skyblue;
+  background-image: url("img/House on a hill.jpg");
+}
+.stats {
+  position: absolute;
+  left: 200px;
+}
+
+p {
+  text-align: left;
+}
