@@ -1,1 +1,1 @@
-Photo by Ahmad Dirini on Unsplash
+Background photo by Michał Grosicki on Unsplash
