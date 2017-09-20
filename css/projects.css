@@ -1,4 +1,5 @@
 .projectGif {
+  height: 350px;
 }
 .projectInfo{
   width: 50%;
@@ -19,7 +20,6 @@
 .projectContainer {
 display: flex;
 flex-direction: row;
-border-radius: 5%;
 overflow: hidden;
 }
 
@@ -30,6 +30,7 @@ overflow: hidden;
 }
 
 body {
+  cursor: pointer;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -82,6 +83,7 @@ nav::before {
     border-radius: 10%;
     background-color: rgba(0,0,0,0);
     overflow: hidden;
+    height: 350px;
 }
 
 
@@ -150,4 +152,22 @@ canvas {
 .carousel {
     border-radius: 10%;
     overflow: hidden;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+    background-color: wheat;
 }
