@@ -9,13 +9,20 @@
   <head>
     <meta charset="utf-8">
     <title>Tim Gafvert</title>
-    <link rel="stylesheet" href="css/projects.css">
+
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <script src="js/app.js" charset-"utf-8"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/projects.css">
+
   </head>
 
   <body>
+    <canvas class='connecting-dots'></canvas>
 
     <nav>
       <a href="index.html"><div class="menuItem">About Me</div></a>
@@ -23,47 +30,71 @@
       <a href="resume.html"><div class="menuItem">Resume</div></a>
       <a href="contactMe.html"><div class="menuItem">Contact Me</div></a>
     </nav>
+    <div class="container">
+      <p class="projectPage">Project Gallery</p>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class='projectContainer'>
+              <img class="projectGif" src="img/Tower-Of-Hanoi.gif" alt="Tower Of Hanoi" style="width:50%;">
+              <div class="projectInfo"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3>Tower of Hanoi</h3>
+              <p>Move the tower pieces to the other end</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class='projectContainer'>
+              <img class="projectGif" src="img/Tower-Of-Hanoi.gif" alt="Tower Of Hanoi" style="width:50%;">
+              <div class="projectInfo"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class='projectContainer'>
+              <img class="projectGif" src="img/Tower-Of-Hanoi.gif" alt="Tower Of Hanoi" style="width:50%;">
+              <div class="projectInfo"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
 
-<div class="info1">INFO ABOUT PROJECT 1</div>
-    <canvas class='connecting-dots'></canvas>
 
 
-        <nav class="projectNav">
-            <li>
-              <a href="#">
-                <div class="projectItem1">
 
 
-                  <img class="mainPic" src="img/TowerHanoi.png" width="300px" height="300px"alt="">
-                  <div id="hoverbar">
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <div class="projectItem">
-                  <img class="mainPic" src="img/computer.jpg" width="300px" height="300px"alt="">
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <div class="projectItem">
-                  <img class="mainPic" src="img/loginPage.jpg" width="300px" height="300px"alt="">
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <div class="projectItem">
-                  <img class="mainPic" src="img/House.jpg" width="300px" height="300px"alt="">
-                </div>
-              </a>
-            </li>
-          <div class="ribbon left"></div>
-          <div class="ribbon right"></div>
-        </nav>
 
 
 </body>
