@@ -87,7 +87,7 @@ nav::before {
 }
 .aboutMeBlurb::before {
   content: " ";
-  height: 400px;
+  height: 500px;
   width: 800px;
   position: absolute;
   opacity: .9;
@@ -131,7 +131,15 @@ li:hover {
 
 }
 
-
+.normal {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color: red;
+}
+.normal:hover {
+  text-decoration: underline;
+}
 a {
   display : block;
   text-decoration : none;

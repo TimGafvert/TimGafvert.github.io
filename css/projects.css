@@ -5,7 +5,15 @@
   width: 50%;
   background-color: white;
 }
-
+.projectTitle {
+  text-align: center;
+  padding: 5px;
+  font-size: 28px;
+}
+.projectText {
+  padding: 30px;
+  font-size: 24px;
+}
 
 .projectPage {
   font-size: 32px;
@@ -170,4 +178,13 @@ canvas {
   height: 30px;
   margin: 8px;
     background-color: wheat;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 0;
+  margin-right: 25px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 0;
+  margin-left: 25px;
 }
