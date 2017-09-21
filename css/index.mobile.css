@@ -1,11 +1,16 @@
-.mainPic{
 
-}
 .myName {
   font-size: 30px;
   text-decoration: underline;
   margin: 10px;
   font-family: 'Arimo', sans-serif;
+}
+.myFace {
+  height: 200px;
+  border-radius: 100%; // full circular image
+  padding:4px;
+   border:4px solid #021a40;
+   background-color:white;
 }
 
 
@@ -83,7 +88,7 @@ nav::before {
   padding: 0px 15px 10px 15px;
   height:auto;
   width: auto;
-  margin: 40px auto auto auto;
+margin: 0px auto auto auto;
   width: 90%;
   font-size: 18px;
   color: black;
