@@ -1,5 +1,6 @@
 .projectGif {
-  height: 350px;
+  /*height: 350px;*/
+  width: 100%
 }
 .projectInfo{
   width: 50%;
