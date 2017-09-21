@@ -27,7 +27,7 @@ text-shadow: 2px 2px black;
 .resumePic {
   margin-top: 20px;
   width: 100%;
-  height:auto;
+  /*height:auto;*/
 }
 #resume {
   height: 800px;
