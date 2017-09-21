@@ -1,6 +1,6 @@
 .projectGif {
-  /*height: 350px;*/
-  width: 100%
+  height: 100%;
+
 }
 .projectInfo{
   width: 50%;
@@ -48,6 +48,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-image: url("../img/projects.jpg");
   background-size:cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -94,7 +95,6 @@ nav::before {
     border-radius: 10%;
     background-color: rgba(0,0,0,0);
     overflow: hidden;
-    height: 350px;
 }
 
 
