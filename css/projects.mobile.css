@@ -54,7 +54,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("../img/projects.jpg");
+  /*background-image: url("../img/projects.jpg");*/
+  background-color: black;
   background-size:cover;
   background-repeat: no-repeat;
   height: 736px;

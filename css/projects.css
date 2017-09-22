@@ -1,9 +1,13 @@
 .projectGif {
   height: 100%;
+  /*width: 100%;*/
+  margin-right:  5px;
+
 
 }
 .projectInfo{
-  width: 50%;
+  /*width: 50%;*/
+  /*height: 450px;*/
   background-color: white;
 }
 .projectTitle {
@@ -14,6 +18,7 @@
 .projectText {
   padding: 30px;
   font-size: 24px;
+  /*height: 400px;*/
 }
 
 .projectPage {
@@ -25,13 +30,22 @@
   text-shadow: 2px 2px black;
 }
 .container {
-  margin-top: 10%;
+  justify-content: center;
+
+  margin-top: 5%;
   overflow: hidden;
+  padding: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  /*width: 90%;*/
+  /*height:90%;*/
 }
 .projectContainer {
 display: flex;
 flex-direction: row;
 overflow: hidden;
+/*width: 90%;*/
 }
 
 .myName {
@@ -46,7 +60,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("../img/projects.jpg");
+  /*background-image: url("../img/projects.jpg");*/
+  background-color: black;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -91,11 +106,7 @@ nav::before {
   background-color: black;
 }
 
-.carousel-inner {
-    border-radius: 10%;
-    background-color: rgba(0,0,0,0);
-    overflow: hidden;
-}
+
 
 
 
@@ -152,8 +163,6 @@ canvas {
     width : 100%;
     display: flex;
     position: absolute;
-    /*background: inherit;*/
-    /*height : 400px;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -161,8 +170,19 @@ canvas {
 }
 
 .carousel {
+    /*margin-top: 75px;*/
     border-radius: 10%;
+    /*overflow: hidden;*/
+    /*height: 1000px;*/
+    /*width: 100%;*/
+}
+.carousel-inner {
+    border-radius: 10%;
+    background-color: rgba(0,0,0,0);
     overflow: hidden;
+    /*height: 1000px;*/
+    /*width: 100%;*/
+
 }
 .carousel-indicators li {
     display: inline-block;
